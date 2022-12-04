@@ -3,7 +3,7 @@
 Console.WriteLine("Введите число: ");
 int numA = Convert.ToInt32(Console.ReadLine());
 int number = 0;
-if (numA>=100)
+if (numA>=100 || numA<= -100)
 { 
     number = (numA%100)/10;
     Console.WriteLine(number);
